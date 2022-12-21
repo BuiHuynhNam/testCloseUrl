@@ -9,9 +9,9 @@ function initPlatform(platform = "Android") {
     var script = document.createElement('script');
     script.type = 'text/javascript';
     if (platform == "iOS") {
-        script.src = "./webpage-ios.js";
+        script.src = "https://github.com/BuiHuynhNam/testCloseUrl/blob/main/webpage-ios.js";
     } else if (platform == "webapp") {
-        script.src = "./webpage-webapp.js";
+        script.src = "https://github.com/BuiHuynhNam/testCloseUrl/blob/main/webpage-webapp.js";
     }
     head.append(script);
 }
